@@ -75,7 +75,7 @@ const Reviews = () => {
 
                 </div>
                 <div className='flex justify-center mt-12'>
-                    <button className='bg-[#F55757] hover:bg-[#d44646] transition-colors px-10 py-4 font-lato text-white rounded-lg shadow-lg'>
+                    <button className='bg-[#F55757] hover:bg-[#d44646] active:bg-[#fd9494] transition-colors px-10 py-4 font-lato text-white shadow-lg'>
                         See All
                     </button>
                 </div>

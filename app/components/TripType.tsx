@@ -14,7 +14,7 @@ export default function BookingBar() {
   ];
 
   return (
-    <div className="w-full bg-pink-100 py-12">
+    <div className="w-full bg-[#FEE7E7] py-12">
       <div className="max-w-6xl mx-auto px-6">
         {/* Tabs */}
         <div className="flex bg-white w-fit rounded-t-lg overflow-hidden shadow">
@@ -79,7 +79,7 @@ export default function BookingBar() {
             />
           </div>
 
-          <button className="bg-[#F55757] text-white py-3 font-lato rounded-md hover:bg-[#F55787] transition">
+          <button className="bg-[#F55757] text-white active:bg-[#fd9494] py-3 font-lato transition">
             Rent Now !
           </button>
         </div>

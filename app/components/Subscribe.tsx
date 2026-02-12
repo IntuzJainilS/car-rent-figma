@@ -1,5 +1,6 @@
 import React from 'react'
 import mail from '@/public/fi_mail.svg'
+import Image from 'next/image'
 
 const Subscribe = () => {
     return (
@@ -15,11 +16,15 @@ const Subscribe = () => {
             </div>
 
             <div className='flex flex-col md:flex-row items-center justify-center w-full max-w-150 gap-2.5'>
-                <input
+                <div className='relative w-full md:w-100'>
+                    <Image src={mail} alt='icon'  className="absolute left-8 top-1/2 -translate-y-1/2 w-5 h-5 opacity-100"/>
+                     <input
                     placeholder='example@gmail.com'
-                    className='w-full md:w-100 bg-white h-13.75 px-6 outline-none'
+                    className='w-full md:w-100 bg-white h-13.75 pl-15 pr-4 outline-none placeholder:font-lato placeholder:text-[#D9D9D9] placeholder:text-[15px] placeholder:font-[400px]'
                 />
-                <button className='bg-[#F55757] text-white font-lato w-full md:w-30 h-13.75 transition-hover hover:bg-[#e44646]'>
+                </div>
+               
+                <button className='bg-[#F55757] text-white font-lato w-full md:w-30 h-13.75 transition-hover hover:bg-[#e44646] active:bg-[#fd9494]'>
                     Subscribe
                 </button>
             </div>

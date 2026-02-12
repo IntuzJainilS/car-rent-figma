@@ -5,6 +5,7 @@ import car1 from "@/public/popularcar/Lexus CT 200h.svg"
 import car2 from "@/public/popularcar/Jaguar F-Pace.svg"
 import car3 from "@/public/popularcar/Marcedes Benz.svg"
 import call from "@/public/popularcar/Vector.svg"
+import blackCall from "@/public/popularcar/blackcall.svg"
 import location from "@/public/popularcar/location.svg"
 import Carlogo from './Carlogo'
 
@@ -35,7 +36,7 @@ const PopularCar = () => {
                 {cars.map((car) => (
                     <div
                         key={car.id}
-                        className="bg-[#F2F2F2] shadow-md p-6 hover:shadow-2xl transition-all duration-300 border border-gray-100"
+                        className="bg-[#F2F2F2] shadow-md p-6 transition-all duration-300 border border-gray-100"
                     >
                         <div className="h-40 md:h-48 flex items-center justify-center relative">
                             <Image
@@ -46,14 +47,14 @@ const PopularCar = () => {
                             />
                         </div>
 
-                        <h3 className="mt-6 text-lg font-lato font-semibold text-[#737373]">
+                        <h3 className="mt-6 text-lg font-lato font-medium text-[26px] text-[#737373]">
                             {car.name}
                         </h3>
 
                         <div className="flex justify-between items-center mt-3 font-lato">
-                            <p className="text-xl font-lato font-bold text-[#404040]">
+                            <p className="text-xl font-lato font-[900px] text-[33px] text-[#404040]">
                                 ${car.price}
-                                <span className="text-sm font-lato font-normal text-gray-400"> /Day</span>
+                                <span className="text-sm font-lato text-[15px] font-normal text-gray-400"> /Day</span>
                             </p>
                             <span className="text-sm flex gap-2 font-lato text-gray-500 px-3 py-1 rounded-full">
                                 <Image src={location} alt='' height={22} width={16} className="" />
@@ -61,7 +62,7 @@ const PopularCar = () => {
                             </span>
                         </div>
 
-                        <button className="mt-6 w-full  border-2  border-gray-700 text-[#737373] hover:bg-[#FF5A5A] hover:text-white hover:border-[#FF5A5A] py-3 px-4 rounded-xl transition-all font-lato flex items-center justify-between group">
+                        <button className="mt-6 w-full  border-2  border-gray-700 text-[#737373] hover:bg-[#FF5A5A] hover:text-white hover:border-[#FF5A5A] py-3 px-4 transition-all font-lato flex items-center justify-between group">
                             <Image src={call} alt='call' height={20} width={20} className="group-hover:brightness-0 group-hover:invert" />
                             <span className="flex-1 text-center font-bold">Rent Now</span>
                             <div className="w-5"></div> 
@@ -71,9 +72,10 @@ const PopularCar = () => {
             </div>
 
             <div className='flex justify-center mt-12'>
-                <button className='bg-[#F55757] hover:bg-[#d44646] transition-colors px-10 py-4 font-lato text-white rounded-lg shadow-lg'>
+                <button className='bg-[#F55757] hover:bg-[#d44646] active:bg-[#fd9494] cursor-pointer transition-all px-10 py-4 font-lato text-white shadow-lg'>
                     See All
                 </button>
+                
             </div>
         </div>
     )

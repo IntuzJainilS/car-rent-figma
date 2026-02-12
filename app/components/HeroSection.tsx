@@ -25,14 +25,14 @@ const HeroSection = () => {
           <div className="mt-8 flex gap-4">
             <Link
               href="#"
-              className="px-6 py-3 bg-[#F55757] text-white rounded-md transition"
+              className="px-6 py-3 bg-[#F55757] text-white active:bg-[#fd9494] transition"
             >
               Get in Touch
             </Link>
 
             <Link
               href="#"
-              className="px-6 py-3 border border-[#F55757] text-[#F55757] rounded-md bg-white transition"
+              className="px-6 py-3 border border-[#F55757] text-[#F55757] active:bg-[#000000] bg-white transition"
             >
               Our Car
             </Link>
@@ -43,43 +43,37 @@ const HeroSection = () => {
           <Image
             src={mapImage}
             alt="Map"
-            className="absolute -top-10 left-0 w-full opacity-150"
+            className="absolute -top-15 left-0 w-full opacity-150"
           />
 
           <Image
             src={Ellipsegreen}
             alt=""
-            className="absolute top-[21%] left-[56%] w-3"
+            className="absolute top-[21%] left-[57%] w-[14.63px] h-5"
           />
 
           <Image
             src={Ellipsered}
             alt=""
-            className="absolute top-[26%] right-[19%] w-3"
+            className="absolute top-[24%] right-[17.5%] w-[18.3px] h-6.25"
           />
 
           <Image
             src={Ellipsered}
             alt=""
-            className="absolute top-[7%] right-[5%] w-3"
+            className="absolute top-[6%] right-[4%] w-[18.3px] h-6.25"
           />
-
-          {/* <Image
-            src={Ellipse2}
-            alt=""
-            className=""
-          /> */}
 
           <Image
             src={vector10}
             alt=""
-            className="absolute top-[15%] left-[57%] w-[23%]"
+            className="absolute top-[15%] left-[58%] w-[23%]"
           />
 
           <Image
             src={vector11}
             alt=""
-            className="absolute top-[9%] left-[81%] w-[15%]"
+            className="absolute top-[9.5%] left-[82%] w-[15%]"
           />
 
           <Image

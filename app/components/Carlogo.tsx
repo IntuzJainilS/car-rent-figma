@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 const Carlogo = () => {
   return (
-    <div className='flex gap-2 justify-evenly mt-12'>
+    <div className='flex gap-2 flex-wrap justify-evenly mt-12 w-auto opacity-25'>
       <Image src={bmw} alt='logo' height={80} width={80}/>
       <Image src={lexus} alt='logo' height={80} width={80}/>
       <Image src={mercedes} alt='logo' height={80} width={80}/>
