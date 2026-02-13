@@ -9,8 +9,8 @@ const Navbar = () => {
  const [active, setactive] = useState('')
 
   return (
-    <nav className="bg-white px-4 py-3">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+    <nav className="bg-white px-4 py-3 top-9.5 lg:left-25 md:left-12">
+      <div className="max-w-7xl mx-auto flex items-center justify-between pt-5">
         
         <Link href="/" className="flex items-center">
           <Image height={25} width={94} alt="logo" src={logo} />

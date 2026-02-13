@@ -10,6 +10,7 @@ import ContactUs from "./components/ContactUs";
 import Reviews from "./components/Reviews";
 import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
+import upbutton from '@/public/Group 27.svg'
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
     <Reviews/>
     <Subscribe/>
     <footer><Footer/></footer>
+    <div className="flex justify-center">
+          <Image src={upbutton} alt="Move to top" className="w-12 h-12 cursor-pointer hover:scale-110 transition-transform"/>
+    </div>
+    <div className="w-full h-6.25 bg-[#F55757] bottom-0"></div>
    </div>
   );
 }

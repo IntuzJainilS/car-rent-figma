@@ -62,8 +62,8 @@ const PopularCar = () => {
                             </span>
                         </div>
 
-                        <button className="mt-6 w-full  border-2  border-gray-700 text-[#737373] hover:bg-[#FF5A5A] hover:text-white hover:border-[#FF5A5A] py-3 px-4 transition-all font-lato flex items-center justify-between group">
-                            <Image src={call} alt='call' height={20} width={20} className="group-hover:brightness-0 group-hover:invert" />
+                        <button className="mt-6 w-full  border-2  border-gray-700 text-[#737373] hover:bg-[#FF5A5A] hover:text-white hover:border-[#FF5A5A] active:bg-[#f59292] py-3 px-4 transition-all font-lato flex items-center justify-between group">
+                            <Image src={blackCall} alt='call' height={20} width={20} className="group-hover:brightness-0 group-hover:invert" />
                             <span className="flex-1 text-center font-bold">Rent Now</span>
                             <div className="w-5"></div> 
                         </button>

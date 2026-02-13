@@ -16,7 +16,7 @@ export default function BookingBar() {
   return (
     <div className="w-full bg-[#FEE7E7] py-12">
       <div className="max-w-6xl mx-auto px-6">
-        {/* Tabs */}
+
         <div className="flex bg-white w-fit rounded-t-lg overflow-hidden shadow">
           {tabs.map((tab) => (
             <button
@@ -33,7 +33,6 @@ export default function BookingBar() {
           ))}
         </div>
 
-        {/* Form */}
         <div className="bg-white shadow-md rounded-b-lg p-6 grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
           <div>
             <p className="text-xs text-gray-500 font-lato mb-1">Pickup</p>

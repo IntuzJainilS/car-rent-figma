@@ -13,7 +13,7 @@ const HeroSection = () => {
     <section className="relative overflow-hidden bg-white">
       <div className="container mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
         
-        <div className="relative z-0">
+        <div className="relative z-0 lg:left-25 md:left-12">
           <h1 className="text-4xl md:text-5xl font-lato font-bold leading-tight text-[#595959]">
             We Have Prepared a Car For Your Trip
           </h1>
